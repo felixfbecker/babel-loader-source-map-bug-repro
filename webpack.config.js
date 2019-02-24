@@ -14,6 +14,11 @@ const config = {
     module: {
         rules: [
             {
+                test: /\.m?js$/,
+                use: ['source-map-loader'],
+                enforce: 'pre',
+            },
+            {
                 test: /\.js$/,
                 use: 'babel-loader',
             },
