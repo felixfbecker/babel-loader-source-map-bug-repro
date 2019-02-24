@@ -13,10 +13,10 @@ const config = {
     devtool: 'source-map',
     module: {
         rules: [
-            // {
-            //     test: /\.js$/,
-            //     use: 'babel-loader',
-            // },
+            {
+                test: /\.js$/,
+                use: 'babel-loader',
+            },
         ],
     },
 }
