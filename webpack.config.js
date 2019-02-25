@@ -6,7 +6,7 @@ const config = {
     },
     output: {
         devtoolModuleFilenameTemplate: info => {
-            console.log(info)
+            console.log(info.absoluteResourcePath)
             return 'file:///' + info.absoluteResourcePath
         },
     },

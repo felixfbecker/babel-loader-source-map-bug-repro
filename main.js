@@ -1,4 +1,3 @@
-import { noop } from 'rxjs'
+import { createHoverifier } from "@sourcegraph/codeintellify";
 
-noop();
-console.log('Hello world')
+createHoverifier()

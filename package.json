@@ -7,6 +7,6 @@
     "webpack-cli": "^3.2.3"
   },
   "dependencies": {
-    "rxjs": "^6.4.0"
+    "@sourcegraph/codeintellify": "^6.0.3"
   }
 }
